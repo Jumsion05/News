@@ -25,6 +25,7 @@ class Config(object):
     LOG_LEVEL = logging.DEBUG
 
 
+
 class DevelopementConfig(Config):
     """开发模式下的配置"""
     DEBUG = True
