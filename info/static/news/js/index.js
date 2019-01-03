@@ -68,10 +68,49 @@ function updateNewsData() {
     var params = {
         "cid": currentCid,
         "page": cur_page,
-        "per_page": 50
+        "per_page": 5
     };
 
     // TODO 更新新闻数据
+    $.ajax({
+        url: "/news_list",
+        type: "GET",
+        data: params,
+        success: function (resp) {
+            if (resp) {
+                //  在切换不同的页面时，清空已有的数据
+                if (cur_page == 1) {
+                    $(".list_con").html("")
+                }
 
+                // 当ajax请求数据成功之后，需要关闭请求数据状态为false
+                data_querying = false
+
+                //  获取后台数据以后，需要调整页码总数，更新当前页
+                total_page = resp.pages
+
+                //  显示数据
+                for (var i = 0; i < resp.news_list.length; i++) {
+                    var news = resp.news_list[i]
+                    var content = '<li>'
+                    content += '<a href="/news/' + news.id + '" class="news_pic fl"><img src="' + news.index_image_url + '?imageView2/1/w/170/h/170"></a>'
+                    content += '<a href="/news/' + news.id + '" class="news_title fl">' + news.title + '</a>'
+                    content += '<a href="/news/' + news.id + '" class="news_detail fl">' + news.digest + '</a>'
+                    content += '<div class="author_info fl">'
+                    content += '<div class="source fl">来源：' + news.source + '</div>'
+                    content += '<div class="time fl">' + news.create_time + '</div>'
+                    content += '</div>'
+                    content += '</li>'
+                    $(".list_con").append(content)
+
+                    cur_page += 1   //  当前页数加1
+
+                }
+
+
+            }
+        }
+
+    })
 
 }

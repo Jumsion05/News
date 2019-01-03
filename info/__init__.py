@@ -126,10 +126,13 @@ def create_app(config_name):
     #  首页
     from info.modules.index import index_blu
     app.register_blueprint(index_blu)
-
     # 注册
     from info.modules.passport import passport_blue
     app.register_blueprint(passport_blue)
+    # 添加自定义过滤器
+    from info.utils.common import do_index_class
+    app.add_template_filter(do_index_class, "index_class")
+
 
     return app
 
