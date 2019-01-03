@@ -19,3 +19,1050 @@ INFO _internal.py:88  * Restarting with stat
 WARNING _internal.py:88  * Debugger is active!
 INFO _internal.py:88  * Debugger PIN: 677-780-134
 INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 17:11:39] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:35:04] "GET /static/news/index.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:41:12] "GET /static/news/index.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:44:17] "GET /static/news/index.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:45:24] "GET /static/news/login.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:45:50] "GET /static/news/index.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask项目/News/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:37] "GET /index.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:55] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:56] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:57] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:59] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:59] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 18:58:59] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 19:03:47] "GET /static/news/html/index.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [16/Dec/2018 19:04:10] "GET /static/news/index.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:56:54] "GET / HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:56:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:00] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:01] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:02] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:02] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 20:57:02] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:28] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:34] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:34] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:34] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:34] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:34] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:34] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:34] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:35] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:35] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:35] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:35] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:35] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:04:35] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:11:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:03] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:04] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:05] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:05] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:12:05] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:15:58] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:48:17] "GET /image_code?3306 HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:48:38] "GET /image_code HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:48:42] "GET /image_code HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:48:44] "GET /image_code HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:48:45] "GET /image_code HTTP/1.1" 404 -
+ERROR views.py:22 Can't convert 'NoneType' object to str implicitly
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:48:59] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:22 Can't convert 'NoneType' object to str implicitly
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:49:08] "GET /passport/image_code?33-6 HTTP/1.1" 200 -
+ERROR views.py:22 Can't convert 'NoneType' object to str implicitly
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:49:12] "GET /passport/image_code?3306 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:49:37] "GET // HTTP/1.1" 301 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:49:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:50:14] "GET / HTTP/1.1" 200 -
+ERROR views.py:22 setex() missing 1 required positional argument: 'value'
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:53:49] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:56:18] "GET / HTTP/1.1" 200 -
+ERROR views.py:24 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:56:35] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:24 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 21:57:16] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:25 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:02:37] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:26 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:03:02] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+ERROR views.py:26 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:03:08] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:27 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:03:29] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:04:12] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:04:20] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:27 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:08:26] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:11:54] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:12:58] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:12:58] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:12:58] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:13:03] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:15:54] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:27 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:19:40] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:28:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:28:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:27] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:34] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:35] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:36] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:36] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:36] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:37] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:37] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:38] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:38] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:39] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:39] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:39] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:40] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:40] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:34:40] "GET /passport/image_code?code_id=3336 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:35:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:23] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:25] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:25] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:25] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:26] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:37] "GET /passport/image_code?code_id=11e21411-9b9d-4081-9e94-ec3c50ffc49a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:37] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:41] "GET /passport/image_code?code_id=2389f099-621b-4686-8115-9e879ed6c4f1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:43] "GET /passport/image_code?code_id=9d294299-f321-4ae1-8600-1d31ce9e4b03 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:44] "GET /passport/image_code?code_id=22fdc154-5d3d-4bb6-870d-e4796109bf93 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:44] "GET /passport/image_code?code_id=800e7fd6-b533-47b2-8a8f-24f1b243c9a6 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:44] "GET /passport/image_code?code_id=3de47d12-b40a-48a5-8fef-4c58f5b74577 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:44] "GET /passport/image_code?code_id=e56a6261-e460-4801-ad82-690b7b8734c8 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:45] "GET /passport/image_code?code_id=26fb8b51-e983-4dbd-bf55-04ec9e5a4aa5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:45] "GET /passport/image_code?code_id=18f25669-d6fa-4135-b308-09252d9d07bb HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:45] "GET /passport/image_code?code_id=f35232fd-e1da-473a-80bc-6b4c886e99a4 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:45] "GET /passport/image_code?code_id=297fd9ed-bd50-4453-b1bb-ab8c56a954f1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:45] "GET /passport/image_code?code_id=63ab723d-1cf3-4131-89c7-f8fac63b7018 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:46] "GET /passport/image_code?code_id=30043aa3-6122-4c16-8a7d-1873353838bb HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:46] "GET /passport/image_code?code_id=8546b6d6-aa83-4178-bed0-cdbc7cf79a01 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:46] "GET /passport/image_code?code_id=046cd133-e844-417b-ae49-5fcc1c26e2b2 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:46] "GET /passport/image_code?code_id=f09b3bed-1672-4af2-954d-4545ec8076ca HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 22:38:46] "GET /passport/image_code?code_id=1d894032-035a-4e71-b10b-b9129c1867fa HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:01] "GET /passport/image_code?code_id=aae6e18d-f50f-4f01-83c7-de0813e98877 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:03] "GET /passport/image_code?code_id=248a315d-cbdf-41ad-9e2c-34cc4a2498e5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:05] "GET /passport/image_code?code_id=ce622e13-3c5c-405c-ac98-e30ba4a73d28 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:06] "GET /passport/image_code?code_id=10ae4698-4ec0-4270-a6a0-f7a611438512 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:06] "GET /passport/image_code?code_id=bef7b823-5a9e-456e-9125-f570279b8da6 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:07] "GET /passport/image_code?code_id=e38f0f06-e3cd-4c8c-bdeb-1672693c059b HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:08] "GET /passport/image_code?code_id=3dad6e01-e56c-46f5-9ae4-8efaf97ce013 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:08:08] "GET /passport/image_code?code_id=a4233c94-a150-48bf-8a79-d8d8953c89d2 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:46:07] "GET /passport/image_code?code_id=713ef29e-3a85-4227-84a2-d501158c7526 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:46:26] "GET /passport/image_code?code_id=8810cf29-989b-49f0-a52d-1269f570ab48 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:27 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:48:20] "GET /passport/image_code?code_id=xlyn HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:49:03] "GET /passport/image_code?code_id=xlyn HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:49:11] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:49:16] "GET /passport/image_code?code_id=c3e4beba-bcda-4750-84bd-b5a74afb67d9 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:49:18] "GET /passport/image_code?code_id=20f046f9-f189-41c9-b801-3316a4ab8e9d HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:49:19] "GET /passport/image_code?code_id=b56374c4-ab49-4e4c-bac4-484aa34f5bc3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:49:20] "GET /passport/image_code?code_id=4b8dd73a-3123-4da1-9e3b-63db6dc76147 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:55:13] "GET /passport/image_code?code_id=c0e12f85-2f6e-490f-822f-03cb43b4eb88 HTTP/1.1" 200 -
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:55:46] "GET /passport/image_code?code_id=f5058016-4532-4784-b7d7-4cfda5f45927 HTTP/1.1" 200 -
+ERROR views.py:28 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:55:47] "GET /passport/image_code?code_id=46de8bc8-b3d1-4c79-8db4-7d04f61a473c HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:57:22] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:57:42] "GET /passport/image_code?code_id=1f4177ac-17f4-405a-b6ee-c691f6fa983a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:57:46] "GET /passport/image_code?code_id=91fef64d-469d-4587-89e0-a6073e1824af HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [30/Dec/2018 23:57:47] "GET /passport/image_code?code_id=0a87245d-6442-4b39-bfd6-0da13852273e HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:20] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:26] "GET /passport/image_code?code_id=8b34dff9-7501-4bef-b58f-f5a6dabc2e79 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:26] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:27] "GET /passport/image_code?code_id=30169a67-c7fe-48d3-aa5f-fff9c1780c71 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:28] "GET /passport/image_code?code_id=86ae4dfb-be69-4c6d-83aa-a774d25e3d52 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:28] "GET /passport/image_code?code_id=933e3564-c967-461f-b4cb-4bf79d509475 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:28] "GET /passport/image_code?code_id=ad00b032-5f0c-4bcd-8c74-2f5ff49e30c7 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:29] "GET /passport/image_code?code_id=5c322c50-548d-4cd9-8409-24b3ae2ae94c HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:29] "GET /passport/image_code?code_id=010faf4c-2321-4120-9b2a-4be3f5835592 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:29] "GET /passport/image_code?code_id=fe809d70-64f7-4f42-9b87-4d83f56fe34d HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 15:58:30] "GET /passport/image_code?code_id=4d15e1cd-8e8a-40d0-b5a9-fdf576156635 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:01:00] "GET /passport/sms_code HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:01:11] "GET /passport/smscode HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:01:12] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:01:12] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:01:12] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:01:13] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:01:14] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:26] "GET /passport/smscode HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:26] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:26] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:27] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:27] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:27] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:37] "GET /passport/smscode HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:37] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:37] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:37] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:38] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:03:38] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:04:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:04:04] "GET /passport/image_code?code_id=26b01896-206d-496d-a21d-37fcc1b63b6f HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:06:09] "GET /passport/image_code?code_id=c875c5ae-3b4b-4102-adfd-0bb24f43dc53 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/config.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+ERROR views.py:33 getaddrinfo() argument 1 must be string or None
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:19:31] "GET /passport/image_code?code_id=xrfm HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/manage.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:56:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:56:44] "GET /passport/image_code?code_id=xrfm HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:57:53] "GET /passport/image_code?code_id=xrfm HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 16:59:39] "GET /passport/image_code?code_id=1f65ec39-3992-4245-9335-5d9453ea9528 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:00:06] "GET /passport/image_code?code_id=2a483ecc-7065-412a-b61d-6a08528851ca HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:00:09] "GET /passport/image_code?code_id=273c2c10-71e0-496d-9ccc-b8a8c4599fe8 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:12:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:12:34] "GET /passport/image_code?code_id=1ac55c44-830e-417b-adf6-69b3b4238600 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:19:06] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:19:15] "GET /passport/image_code?code_id=05e5d2ea-880b-4015-adec-cfe76d41ab66 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:20:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:21:11] "GET /passport/image_code?code_id=4217a755-50da-476f-9251-87dab9548727 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:23:51] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:24:13] "GET /passport/image_code?code_id=15ddfd75-1629-4a9b-b4b0-dd72c18902be HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:25:44] "GET /passport/smscode HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:25:46] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:25:46] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:25:46] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:25:49] "GET /passport/smscode?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:27:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:27:43] "GET /passport/image_code?code_id=69cb0879-8a6b-42ee-b625-ffceebcf5a23 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:28:41] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:28:45] "GET /passport/image_code?code_id=f4529d70-e2cd-4eac-92ef-131f8f683d2a HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 17:29:09] "GET /passport/image_code?code_id=c122d968-39a0-4443-815c-7dcc3ebc7460 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 18:58:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 18:59:33] "GET /passport/image_code?code_id=3b53986a-6144-4168-84c3-92577067578e HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:02:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:03:00] "GET /passport/image_code?code_id=39759e4f-41a8-4e0a-a416-be200b87f13a HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:07:02] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:07:21] "GET /passport/image_code?code_id=ac5f350b-1971-4dff-bd31-33a465ba901c HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:13:08] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:13:10] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:13:29] "GET /passport/image_code?code_id=d87378b6-33cc-4d18-bc3a-89ff53a7cd03 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:13:35] "GET /passport/image_code?code_id=caa2a095-f133-4af6-bc78-0edf7ff2dd88 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:45] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:46] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:50] "GET /passport/image_code?code_id=aff21cdd-f58b-4e71-b523-43da5dbe7d31 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:17:50] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:04] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:05] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:05] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:05] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:05] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:05] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:05] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:06] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:06] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:06] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:06] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:06] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:06] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:13] "GET /passport/image_code?code_id=a4cf0eaa-0dc0-4e61-9546-f4ee9a97f66c HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:13] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:19:35] "POST /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:17] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:18] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:18] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:18] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:18] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:18] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:18] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:19] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:19] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:19] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:19] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:19] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:19] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:22] "GET /passport/image_code?code_id=7c99217e-59ff-4a5c-a5f0-812646523faf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:22] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:22:31] "GET /passport/image_code?code_id=6cc06134-d7c6-40aa-a69f-b948d4561eb2 HTTP/1.1" 200 -
+DEBUG views.py:101 短信验证码的内容:897927
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:23:06] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/utils/yuntongxun/sms.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/utils/yuntongxun/sms.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:32:33] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/utils/yuntongxun/sms.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/utils/yuntongxun/sms.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:52:17] "GET /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:54:53] "GET /pass HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 19:55:26] "GET /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:04:00] "GET /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:04:01] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:07:56] "GET /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:07:57] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:30:06] "GET /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:30:07] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:31:09] "GET /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/utils/yuntongxun/sms.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/utils/yuntongxun/sms.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:34:49] "GET /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:35:37] "GET /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:37:52] "GET /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:37:52] "GET /passport/sms_code?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:37:52] "GET /passport/sms_code?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:37:52] "GET /passport/sms_code?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:37:52] "GET /passport/sms_code?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:37:53] "GET /passport/sms_code?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:03] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:03] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:03] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:03] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:03] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:04] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:09] "GET /passport/image_code?code_id=5a9dffe4-b6f8-4bff-bc6e-d3c953fa3784 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:09] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+DEBUG views.py:101 短信验证码的内容:143762
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:23] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:31] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 20:38:32] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:42] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:44] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:44] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:44] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:44] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:44] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:44] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:46] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:46] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:46] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:46] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:46] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:46] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:53] "GET /passport/image_code?code_id=e6f6752d-15b5-49c3-99f2-d527a60c6ae0 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:05:53] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+DEBUG views.py:102 短信验证码的内容:979777
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:06:26] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:06:48] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:07:29] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:08:12] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:15] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:17] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:17] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:17] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:17] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:17] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:17] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:18] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:18] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:18] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:18] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:18] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:18] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:19] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:29] "GET /passport/image_code?code_id=5a77cb3f-2efb-406f-b987-78470e5b0e0c HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:29] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+DEBUG views.py:102 短信验证码的内容:052865
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:11:54] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:12:35] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:31] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:31] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:31] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:31] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:31] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:32] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:32] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:32] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:32] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:32] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:33] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:35] "GET /passport/image_code?code_id=e76ce89a-c800-4312-9537-ce7e76ebb520 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:13:35] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+DEBUG views.py:102 短信验证码的内容:586244
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:00] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:12] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:13] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:13] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:13] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:14] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:14] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:14] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:14] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:14] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:14:14] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:16:30] "GET /passport/image_code?code_id=2e681df2-6a96-405e-b203-a1095be38a86 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:16:30] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:04] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:09] "GET /passport/image_code?code_id=a67c5a58-f2a9-4744-8c72-785f39cfd1d0 HTTP/1.1" 200 -
+DEBUG views.py:102 短信验证码的内容:146347
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:24] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:42] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:45] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:45] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:45] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:45] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:45] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:45] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:46] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:46] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:47] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:47] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:47] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:25:47] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:27:32] "GET /passport/image_code?code_id=c621bd2f-67f0-41d3-bc36-11c21b75d549 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:27:32] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+DEBUG views.py:102 短信验证码的内容:992958
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:27:56] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:12] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:12] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:13] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:13] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:13] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:14] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:14] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:14] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:14] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:14] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 21:28:14] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/config.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:02:34] "GET /passport/image_code?code_id=9132888b-91df-4a53-81ae-6924bfbed36b HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:02:34] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+DEBUG views.py:102 短信验证码的内容:265361
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:04] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:21] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:23] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:25] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:25] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:26] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:26] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:26] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:26] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:27] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:27] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:27] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:27] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:27] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 22:03:27] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:24] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:25] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:25] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:25] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:25] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:25] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:26] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:26] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:26] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:26] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:26] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:26] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:26] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:34] "GET /passport/image_code?code_id=b6c3654d-1e62-41e8-acd6-9ebd3d4d2f72 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:34] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:11:36] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:04] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:12] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:17] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:17] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [02/Jan/2019 23:12:18] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:34] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:37] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:37] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:37] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:37] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:37] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:39] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:39] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:39] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:39] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:39] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:39] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:16:39] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:46] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:47] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:47] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:47] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:47] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:47] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:48] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:48] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:48] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:48] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:48] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:48] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:48] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:52] "GET /static/news/html/user.html HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:53] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:53] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:54] "GET /static/news/html/user_base_info.html HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:29:55] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:20] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:21] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:21] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:21] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:23] "POST /passport/logout HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:23] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:23] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:23] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:23] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:23] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:24] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:24] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:24] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:25] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:25] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:25] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:25] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:26] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:29] "GET /passport/image_code?code_id=56686d67-da5e-43dc-995d-7568dcef0ae4 HTTP/1.1" 200 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:34:53] "POST /passport/sms_code HTTP/1.1" 400 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:19] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:19] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:19] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:19] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:19] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:19] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:20] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:20] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:20] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:20] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:20] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:25] "GET /passport/image_code?code_id=b0c0fb87-4a15-43a9-8751-9763ffaaa4b1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:36:25] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:37:09] "POST /passport/sms_code HTTP/1.1" 400 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:38:19] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:35] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:35] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:35] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:35] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:35] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:35] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:36] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:36] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:36] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:36] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:36] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:43] "GET /passport/image_code?code_id=9f86f6e3-74cd-47e9-83a6-033003e7f0c8 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:40:43] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+DEBUG views.py:103 短信验证码的内容:192718
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:05] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:29] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:30] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:31] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:32] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:32] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:32] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:32] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:34] "POST /passport/logout HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:34] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:35] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:35] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:35] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:35] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:35] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:35] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:35] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:36] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:36] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:36] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:36] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:37] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:48] "POST /passport/login HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:41:51] "POST /passport/login HTTP/1.1" 400 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:50] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:51] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:51] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:51] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:51] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:52] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:52] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:52] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:52] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:52] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:52] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:42:53] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:04] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:04] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:05] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:05] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:05] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:05] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 00:43:06] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:33] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:34] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:34] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:41] "GET /passport/image_code?code_id=1ba9ec19-f561-42bc-90b2-411298c963db HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:41] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:57] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:57] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:57] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:42:58] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:00] "POST /passport/logout HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:00] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:00] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:00] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:00] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:00] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:01] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:01] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:01] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:01] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:01] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [03/Jan/2019 18:43:01] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/Flask框架/Flask项目/News/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 677-780-134
