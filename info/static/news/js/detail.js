@@ -14,8 +14,8 @@ $(function(){
     // 收藏
     $(".collection").click(function () {
         // 获取收藏的`新闻id`
-        var news_id = $(this).attr("data-news-id");
-        var action = "do";
+        var news_id = $(this).attr("data-newid");
+        var action = "collect";
 
         // 组织参数
         var params = {
@@ -24,15 +24,36 @@ $(function(){
         };
 
         // TODO 请求收藏新闻
-
+        $.ajax({
+            url: "/news/news_collect",
+            type: "post",
+            contentType: "application/json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
+            },
+            data: JSON.stringify(params),
+            success: function (resp) {
+                if (resp.errno == "0") {
+                    // 收藏成功
+                    // 隐藏收藏按钮
+                    $(".collection").hide();
+                    // 显示取消收藏按钮
+                    $(".collected").show();
+                } else if (resp.errno == "4101") {
+                    $('.login_form_con').show();
+                } else {
+                    alert(resp.errmsg);
+                }
+            }
+        })
        
     });
 
     // 取消收藏
     $(".collected").click(function () {
         // 获取收藏的`新闻id`
-        var news_id = $(this).attr("data-news-id");
-        var action = "undo";
+        var news_id = $(this).attr("data-newid");
+        var action = "cancel_collect";
 
         // 组织参数
         var params = {
@@ -41,7 +62,28 @@ $(function(){
         };
 
         // TODO 请求取消收藏新闻
-
+        $.ajax({
+            url: "/news/news_collect",
+            type: "post",
+            contentType: "application/json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
+            },
+            data: JSON.stringify(params),
+            success: function (resp) {
+                if (resp.errno == "0") {
+                    // 收藏成功
+                    // 显示收藏按钮
+                    $(".collection").show();
+                    // 隐藏取消收藏按钮
+                    $(".collected").hide();
+                } else if (resp.errno == "4101") {
+                    $('.login_form_con').show();
+                } else {
+                    alert(resp.errmsg);
+                }
+            }
+        })
 
     });
 

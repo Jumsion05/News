@@ -1,25 +1,31 @@
 from flask import current_app, jsonify
+from flask import g
 from flask import request
 from flask import session
 
 from info import constants
 from info.models import User, News, Category
+from info.utils.common import user_login_data
 from info.utils.response_code import RET
 from . import index_blu
 from flask import render_template
 
 # 使用蓝图对象注册路由
 @index_blu.route("/")
+@user_login_data
 def index():
-    # 获取当前登录用户的id
-    user_id = session.get("user_id")
-    # 通过id获取用户信息
-    user = None
-    if user_id:
-        try:
-            user = User.query.get(user_id)
-        except Exception as e:
-            current_app.logger.error(e)
+    # # 获取当前登录用户的id
+    # user_id = session.get("user_id")
+    # # 通过id获取用户信息
+    # user = None
+    # if user_id:
+    #     try:
+    #         user = User.query.get(user_id)
+    #     except Exception as e:
+    #         current_app.logger.error(e)
+
+    # 获取当前登录的信息
+    user = g.user
 
     # 获取点击排行榜数据
     news_list = None

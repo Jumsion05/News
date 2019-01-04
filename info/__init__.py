@@ -65,6 +65,7 @@ from flask_session import Session
 from flask_wtf.csrf import CSRFProtect
 from flask_wtf.csrf import generate_csrf
 
+from info.utils.common import user_login_data
 
 db = SQLAlchemy()
 redis_store = None
@@ -114,6 +115,12 @@ def create_app(config_name):
 
         return response
 
+    @app.errorhandler(404)
+    @user_login_data
+    def page_not_found(_):
+        user = g.user
+        return render_template("news/404.html", user=user)
+
 
     #  开启session功能
     Session(app)
@@ -126,12 +133,18 @@ def create_app(config_name):
     #  首页
     from info.modules.index import index_blu
     app.register_blueprint(index_blu)
-    # 注册
+    # 注册登录
     from info.modules.passport import passport_blue
     app.register_blueprint(passport_blue)
+    # 新闻详情页
+    from info.modules.news import news_blu
+    app.register_blueprint(news_blu)
+
+
+
     # 添加自定义过滤器
     from info.utils.common import do_index_class
-    app.add_template_filter(do_index_class, "index_class")
+    app.add_template_filter(do_index_class, "index_cls")
 
 
     return app
