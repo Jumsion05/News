@@ -74,6 +74,20 @@ def detail(news_id):
     for comment in like_list:
         comment_like_list.append(comment.to_dict())
 
+    # 当前新闻作者
+    author = news.user
+    print("author:",author)
+
+    # 获取当前作者发布的总篇数
+    news_list_count = author.news_list.count()
+
+    # 查询当前作者粉丝数量
+    fans_count = author.followers.count()
+
+    # 显示当前登录用户对作者的关注状态
+    is_follow = False
+    if author in user.followed:
+        is_follow = True
 
     return render_template("news/detail.html",
                            news=news,
@@ -81,7 +95,15 @@ def detail(news_id):
                            user=user,
                            is_collection=is_collection,
                            comment_list=comment_list,
-                           comment_like_list=comment_like_list
+                           comment_like_list=comment_like_list,
+                           # 获取当前新闻作者的信息
+                           author=author,
+                           # 获取当前新闻作者发布的篇数
+                           news_list_count=news_list_count,
+                           # 作者粉丝的数量
+                           fans_count=fans_count,
+                           # 当前登录用户对作者的关注状态
+                           is_follow=is_follow
                            )
 
 @news_blu.route("/news_collect", methods=["POST"])
@@ -248,3 +270,55 @@ def comment_like():
 
     # 返回响应结果, 评论点赞或者取消点赞成功
     return jsonify(errno=RET.OK, errmsg="操作成功", like_count=comment.like_count)
+
+@news_blu.route("/author_fans",methods=["POST"])
+@user_login_data
+def author_fans():
+    """登录用户关注或者取消关注新闻作者"""
+    # 接收参数[author_id, action]并进行校验
+    # action的值可以是follow关注和is_followed取消关注
+    user = g.user
+    if not user:
+        return jsonify(errno=RET.SESSIONERR, errmsg="用户未登录")
+
+    data_dict = request.json
+    author_id = data_dict.get("author_id")
+    action = data_dict.get("action")
+
+    # 根据author_id查询作者的信息(如果查询不到,说明作者不存在)
+    if not all([author_id,action]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+
+    if action not in ("follow","is_followed"):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+
+    # 判断新闻作者是否存在
+    try:
+        author = User.query.get(author_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="查询数据失败")
+
+    if not author:
+        return jsonify(errno=RET.NODATA, errmsg="新闻作者不存在")
+
+    # 根据action执行对象的操作
+    if action == "follow":
+        # 关注
+        # author.followers 新闻作者的所有粉丝,返回是一个列表
+        author.followers.append(user)
+        print(author.followers.count())
+    else:
+        #　取消关注
+        author.followers.remove(user)
+
+    try:
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.error(e)
+        db.session.rollback()
+        return jsonify(errno=RET.DBERR, errmsg="保存数据失败")
+
+    # 返回数据结果,返回粉丝数量
+    followers_count = author.followers.count()
+    return jsonify(errno=RET.OK, errmsg="OK", followers_count=followers_count)

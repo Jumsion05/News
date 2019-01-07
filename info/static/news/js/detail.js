@@ -311,11 +311,75 @@ $(function(){
 
     // 关注当前新闻作者
     $(".focus").click(function () {
+        var author_id = $(this).attr("data-author-id")
 
+        // 组织参数
+        var params = {
+            "author_id": author_id,
+            "action": "follow",
+        };
+
+        // TODO 请求`关注`
+        $.ajax({
+            url: "/news/author_fans",
+            type: "POST",
+            data: JSON.stringify(params),
+            contentType: "application/json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
+            },
+            success: function (resp) {
+                if (resp.errno == "0") {
+                    // 关注成功
+                    $(".focus").hide()
+                    $(".focused").show()
+                    // 更新粉丝数量
+                    $(".follows b").html(resp.followers_count)
+                } else if (resp.errno == "4101") {
+                    // 没有登陆
+                    $('.login_form_con').show();
+                } else {
+                    // 关注失败
+                    alert(resp.errmsg)
+                }
+            }
+        })
     });
 
     // 取消关注当前新闻作者
     $(".focused").click(function () {
+        var author_id = $(this).attr("data-author-id")
 
+        // 组织参数
+        var params = {
+            "author_id": author_id,
+            "action": "is_followed",
+        };
+
+        // TODO 请求`取消关注`
+        $.ajax({
+            url: "/news/author_fans",
+            type: "POST",
+            data: JSON.stringify(params),
+            contentType: "application/json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
+            },
+            success: function (resp) {
+                if (resp.errno == "0") {
+                    // 取消关注成功
+                    $(".focus").show()
+                    $(".focused").hide()
+                    // 更新粉丝数量
+                    $(".follows b").html(resp.followers_count)
+                }else if (resp.errno == "4101"){
+                    // 没有登陆
+                    $('.login_form_con').show();
+                }else {
+                    // 关注失败
+                    alert(resp.errmsg)
+                }
+            }
+        })
     });
 });
