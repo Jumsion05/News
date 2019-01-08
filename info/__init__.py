@@ -139,8 +139,9 @@ def create_app(config_name):
     # 新闻详情页
     from info.modules.news import news_blu
     app.register_blueprint(news_blu)
-
-
+    # 个人中心页
+    from info.modules.profile import profile_blu
+    app.register_blueprint(profile_blu)
 
     # 添加自定义过滤器
     from info.utils.common import do_index_class
