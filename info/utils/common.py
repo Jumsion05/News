@@ -1,5 +1,6 @@
 import functools
 
+import qiniu
 from flask import current_app
 from flask import g
 from flask import session
@@ -42,3 +43,21 @@ def user_login_data(u):
 
 
     return wrapper
+
+
+def file_storage(data):
+    """上传文件到七牛云"""
+    # data 上传文件的内容[ 经过read()读取出来的文件内容 ]
+    # 应用ID
+    access_key = "UhYWJIgbXnIzPHiZdVCenSnWVksXLlOY4WBAYc91"
+    secret_key = "kVIfTnGjvMU6U9f7l5n_0cTzG4rlGh_v-MXdcKlf"
+    # 存储空间名【一个项目使用一个空间】
+    bucket_name = "gz-python6"
+    # 实例化七牛云操作对象
+    q = qiniu.Auth(access_key, secret_key)
+    # key 保存到七牛云以后的文件名，一般不设置，如果不设置，则七牛云会自动帮我们生成随机的唯一的文件名
+    key = None
+    # upload_token 上传文件的方法
+    token = q.upload_token(bucket_name)
+    ret, info = qiniu.put_data(token, key, data)
+    return ret["key"]  # 上传文件的相关信息
